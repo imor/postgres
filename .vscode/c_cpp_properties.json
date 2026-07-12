@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+        "${workspaceFolder}/src/include",
+        "${workspaceFolder}/src/backend",
+        "${workspaceFolder}/src/interfaces/libpq",
+        "${workspaceFolder}/src/port",
+        "/opt/homebrew/opt/postgresql@16/include/postgresql/server",
+        "/opt/homebrew/opt/postgresql@16/include",
+        "/opt/homebrew/include",
+        "/opt/homebrew/opt/icu4c@78/include",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"
+      ],
+      "defines": ["EXTVERSION=\"0.20.4\""],
+      "macFrameworkPath": [],
+      "compilerPath": "/usr/bin/clang",
+      "compilerArgs": [
+        "-isysroot",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk"
+      ],
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-arm64"
+    }
+  ],
+  "version": 4
+}
