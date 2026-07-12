@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "locale": "c",
+    "__config": "c",
+    "__verbose_abort": "c",
+    "cstdio": "c",
+    "ctime": "c",
+    "cwchar": "c",
+    "version": "c",
+    "algorithm": "c",
+    "origin.h": "c"
+  }
+}
